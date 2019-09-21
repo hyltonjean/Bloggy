@@ -12,3 +12,7 @@ import Buefy from "buefy";
 Vue.use(Buefy);
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+let app = new Vue({
+    el: "#app",
+    data: {}
+});
